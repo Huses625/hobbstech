@@ -1,0 +1,12 @@
+{
+  "projects": {},
+  "targets": {
+    "hobbstech-production-clients": {
+      "hosting": {
+        "prod": [
+          "hobbstech"
+        ]
+      }
+    }
+  }
+}

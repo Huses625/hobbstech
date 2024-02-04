@@ -1,0 +1,82 @@
+{
+  "name": "hobbstech-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service build && firebase use hobbstech-production-clients && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "core-js": "^2.6.5",
+    "countup.js": "^2.0.8",
+    "vue": "^2.6.10",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-countup-v2": "^4.0.0",
+    "vue-masonry": "^0.11.8",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.0.7",
+    "vue-silentbox": "^0.1.9",
+    "vue-slick": "^1.1.15",
+    "vue2-circle-progress": "^1.2.3",
+    "vue2-flip-countdown": "^0.11.1",
+    "vue2-smooth-scroll": "^1.1.0",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "dotenv-webpack": "^7.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "sass": "^1.48.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
